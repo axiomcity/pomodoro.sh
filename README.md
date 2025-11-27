@@ -3,6 +3,8 @@ a super pomodoro app for linux.
 
 # THE APP
 
+<iframe width="1280" height="720" src="https://github.com/axiomcity/pomodoro.sh/blob/main/demo.mp4" title="demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 [Source 📝](https://github.com/axiomcity/pomodoro.sh/blob/main/pomodoro.sh)
 
 ```bash
