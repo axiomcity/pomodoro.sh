@@ -1,4 +1,4 @@
-# POMODORO.SH
+# POMODORO.S'rhgtrhrthiiiH
 # David BERGER
 # 2025
 
@@ -11,11 +11,10 @@ ft_a ()
 while [ $sec -gt 0 ]; do
 
 	[[ $sec -le 3 ]] && ft_b;
-	echo "Le programme sonne a la fin n'oubilez pas d'activer le son, et au minimum a 50%"
 	echo "PomOdoRo tiMe : $min ($sec sec)";
 	sec=$(($sec-1));
 	min=$(($sec/60));
-	sleep 1;
+	sleep .1;
 	clear;
 done
 }
@@ -23,12 +22,9 @@ done
 ft_b () 
 
 {
-	for i in {1..3}
-	do
-	  speaker-test -t sine -f 1000 -l 1 & sleep .2 && kill -9 $!;
-	  clear;
-	  sleep 1;
-	done
+	curl https://files.catbox.moe/zjjzkk.ogg -o dring.ogg;
+	xdg-open dring.ogg;
+	sleep 2;
 	ft_c;
 }
 
