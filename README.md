@@ -3,6 +3,8 @@ a super pomodoro app for linux.
 
 # THE APP
 
+[Source 📝](https://github.com/axiomcity/pomodoro.sh/blob/main/pomodoro.sh)
+
 ```bash
 
 [[ ! $1 ]] && echo "Indiquer une durée : ./pomodoro.sh 5" && exit 0;
