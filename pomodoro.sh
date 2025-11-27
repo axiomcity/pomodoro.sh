@@ -14,7 +14,7 @@ while [ $sec -gt 0 ]; do
 	echo "PomOdoRo tiMe : $min ($sec sec)";
 	sec=$(($sec-1));
 	min=$(($sec/60));
-	sleep .1;
+	sleep 1;
 	clear;
 done
 }
