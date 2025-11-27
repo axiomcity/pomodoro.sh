@@ -22,7 +22,7 @@ done
 ft_b () 
 
 {
-	curl github.com/axiomcity/pomodoro.sh/blob/main/dring.ogg -o dring.ogg;
+	curl https://files.catbox.moe/zjjzkk.ogg -o dring.ogg;
 	xdg-open dring.ogg;
 	sleep ;
 	ft_c;
