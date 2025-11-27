@@ -24,7 +24,6 @@ ft_b ()
 {
 	curl https://files.catbox.moe/zjjzkk.ogg -o dring.ogg;
 	xdg-open dring.ogg;
-	sleep ;
 	ft_c;
 }
 
@@ -32,8 +31,7 @@ ft_c()
 
 {
 	clear
-	echo "On dirai que c'est terminé mec";
-	echo "Recommencer le truc la ?";
+	echo "On dirai que c'est terminé mec \nRecommencer le truc la ?";
 	read -p "Durée du pomodoro min : " rsec && sec=$(($rsec*60)) && ft_a
 	return 0;
 	exit 0;
