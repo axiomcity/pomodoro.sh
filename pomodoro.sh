@@ -23,7 +23,10 @@ ft_b ()
 
 {
 	curl https://files.catbox.moe/zjjzkk.ogg -o dring.ogg;
-	xdg-open dring.ogg;
+	op="xdg-open";
+	hasVlc=$(type vlc);
+	[[ hasVlc=~"/usr/bin/vlc" ]] && op="vlc"
+	$op dring.ogg;
 	ft_c;
 }
 
