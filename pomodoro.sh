@@ -34,7 +34,7 @@ ft_c()
 
 {
 	clear
-	echo "On dirai que c'est terminé mec \nRecommencer le truc la ?";
+	echo "Temps du Pomodoro écoulé \nRecommencer ?";
 	read -p "Durée du pomodoro min : " rsec && sec=$(($rsec*60)) && ft_a
 	return 0;
 	exit 0;
